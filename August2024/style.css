@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=VT323&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+}
+.contenedor{
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#player{
+    width: 60px;
+    height: 60px;
+    background-color: #004cff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: absolute;
+    transition: 0.1s all;
+}
+.pointer{
+    background-color: #f00;
+    height: 30px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.ganar{
+    background-color: rgb(0, 76, 255);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 50%;
+    line-height: 2.5;
+}
